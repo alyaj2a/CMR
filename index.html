@@ -19,58 +19,59 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="layout/scripts/animate_scroll.js"></script>
 <script type="text/javascript" src="layout/scripts/animate_toggle.js"></script>
+<script type="text/javascript" src="layout/scripts/menu_fixed.js"></script>
 
 </head>
 <body id="top">
-
-<div class="wrapper row0">
-  <div id="topbar" class="hoc clear">
-
-    <div class="fl_left">
-      <ul class="nospace">
-        <li><i class="fa fa-phone"></i> (053)-496699</li>
-        <li><i class="fa fa-envelope-o"></i> infocmrsac@gmail.com</li>
-      </ul>
+<div class="contenedor">
+  <div class="wrapper row0 menu_info">
+    <div id="topbar" class="hoc clear">
+      <div class="fl_left">
+        <ul class="nospace">
+          <li><i class="fa fa-phone"></i> (053)-496699</li>
+          <li><i class="fa fa-envelope-o"></i> infocmrsac@gmail.com</li>
+        </ul>
+      </div>
+      <div class="fl_right">
+        <ul class="nospace">
+          <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
+          <!--<li><a href="#">Sobre Nosotros</a></li>-->
+          <li><a href="#footer">Contacto</a></li>
+          <!--
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+          -->
+        </ul>
+      </div>
+      <!-- ################################################################################################ -->
     </div>
-    <div class="fl_right">
-      <ul class="nospace">
-        <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
-        <!--<li><a href="#">Sobre Nosotros</a></li>-->
-        <li><a href="#footer">Contacto</a></li>
-        <!--
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Register</a></li>
-        -->
-      </ul>
-    </div>
-    <!-- ################################################################################################ -->
   </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row1">
-  <header id="header" class="hoc clear">
-    <!-- ################################################################################################ -->
-    <div id="logo" class="fl_left">
-      <!--<h1><a href="index.html">CMR SAC</a></h1>-->
-      <h1>
-        <img src="images/demo/cmr.png" class="logo_cmr">
-      </h1>
-    </div>
-    <nav id="mainav" class="fl_right">
-      <ul class="clear">
-        <li class="active"><a href="index.html">Inicio</a></li>
-        <li><a href="#nosotros">Nosotros</a>
-        </li>
-        <li><a href="#sec_vm">Visión y Misión</a>
-        </li>
-        <li><a href="#sec_valores">Valores</a></li>
-
-      </ul>
-    </nav>
-    <!-- ################################################################################################ -->
-  </header>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1 menu_main">
+    <header id="header" class="hoc clear">
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <!--<h1><a href="index.html">CMR SAC</a></h1>-->
+        <h1>
+          <img src="images/demo/cmr.png" class="logo_cmr">
+        </h1>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="#top">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a>
+          </li>
+          <li><a href="#sec_vm">Visión y Misión</a>
+          </li>
+          <li><a href="#sec_valores">Valores</a></li>
+          <li><a href="#footer">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -135,25 +136,25 @@ Licence URI: http://www.os-templates.com/template-terms
 autónoma. Actualmente se encuentra operando en cuatro rubros.</p>
     <ul class="nospace group center">
       <li class="one_quarter first">
-        <article><a href="#pcinfoperu"><i class="icon btmspace-30 fa fa-laptop"></i></a>
+        <article><a href="#sec_pcinfoperu"><i class="icon btmspace-30 fa fa-laptop"></i></a>
           <h6 class="heading">Pc Info Peru</h6>
           <p>Tecnologías de información</p>
         </article>
       </li>
       <li class="one_quarter">
-        <article><a href="#mul_retama"><i class="icon btmspace-30 fa fa-envira"></i></a>
+        <article><a href="#sec_retama"><i class="icon btmspace-30 fa fa-envira"></i></a>
           <h6 class="heading">Multiservicios Retama</h6>
           <p>Medio Ambiente</p>
         </article>
       </li>
       <li class="one_quarter">
-        <article><a href="#solgas"><i class="icon btmspace-30 fa fa-empire"></i></a>
+        <article><a href="#sec_solgas"><i class="icon btmspace-30 fa fa-empire"></i></a>
           <h6 class="heading">Solgas Ilo</h6>
           <p>Hidrocarburos</p>
         </article>
       </li>
       <li class="one_quarter">
-        <article><a href="#consultoria"><i class="icon btmspace-30 fa fa-legal"></i></a>
+        <article><a href="#csec_onsultoria"><i class="icon btmspace-30 fa fa-legal"></i></a>
           <h6 class="heading">Consultoria</h6>
           <p>Asesoria Legal</p>
         </article>
@@ -211,36 +212,36 @@ autónoma. Actualmente se encuentra operando en cuatro rubros.</p>
     </div>
     <ul class="nospace group services">
       <li class="one_third first">
-        <article><a href="#"><i class="icon fa fa-users"></i></a>
+        <article><a><i class="icon fa fa-users"></i></a>
           <p>Nos esforzamos en dar forma a un futuro mejor.</p>
           <h6 class="heading">Liderazgo</h6>
       </li>
       <li class="one_third">
-        <article><a href="#"><i class="icon fa fa-heart"></i></a>
+        <article><a><i class="icon fa fa-heart"></i></a>
           <h6 class="heading">Colaboración</h6>
           <p>Potenciamos el talento colectivo.</p>
         </article>
       </li>
       <li class="one_third">
-        <article><a href="#"><i class="icon fa fa-cogs"></i></a>
+        <article><a ><i class="icon fa fa-cogs"></i></a>
           <h6 class="heading">Integridad</h6>
           <p>Somos transparentes</p>
         </article>
       </li>
       <li class="one_third first">
-        <article><a href="#"><i class="icon fa fa-child"></i></a>
+        <article><a><i class="icon fa fa-child"></i></a>
           <h6 class="heading">Pasión</h6>
           <p>Estamos comprometidos con el corazon y la mente.</p>
         </article>
       </li>
       <li class="one_third">
-        <article><a href="#"><i class="icon fa fa-globe"></i></a>
+        <article><a><i class="icon fa fa-globe"></i></a>
           <h6 class="heading">Diversidad</h6>
           <p>Contamos con un amplio abanico de empresas y somos inclusivos.</p>
         </article>
       </li>
       <li class="one_third">
-        <article><a href="#"><i class="icon fa fa-certificate"></i></a>
+        <article><a><i class="icon fa fa-certificate"></i></a>
           <h6 class="heading">Calidad</h6>
           <p>Buscamos la excelencia.</p>
         </article>
@@ -495,7 +496,9 @@ autónoma. Actualmente se encuentra operando en cuatro rubros.</p>
         <li class="one_quarter"><a href="#"><img src="images/demo/derecho_coorporativo.png" alt=""></a>
           <p class="text_p">Derecho Coorporativo</p>
         </li>
-      </ul>
+      </ul>.content {
+  padding: 16px;
+}
 
       <section class="seccionToggle-consultoria">
         <div>
@@ -579,7 +582,9 @@ autónoma. Actualmente se encuentra operando en cuatro rubros.</p>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<div class="hola">
+  <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+</div>
 <!-- JAVASCRIPTS -->
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>

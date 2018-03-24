@@ -1,5 +1,5 @@
  $(document).ready(function() {
-    $('a[href^="#"]').click(function() {
+    $('a[href^="#"]:not(a[href="#"])').click(function() {
       var destino = $(this.hash);
       if (destino.length == 0) {
         destino = $('a[name="' + this.hash.substr(1) + '"]');
