@@ -11,6 +11,7 @@ $(document).ready(function(){
         "overflow": "auto"
       });
       estado = false;
+
     } else {
       $(this).text("Cerrar");
       $('body').css({

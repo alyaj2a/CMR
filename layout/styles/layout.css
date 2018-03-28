@@ -307,13 +307,13 @@ a > .icon:hover, .services article:hover .icon{color:#FFFFFF; background-color:#
 
 
 /* Navigation */
-/*
+
 #mainav li a{color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#00ADEF; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#00ADEF;}
 #mainav form select{color:#FFFFFF; background-color:#000000;}
-*/
+
 #breadcrumb a{color:inherit; background-color:inherit;}
 #breadcrumb li:last-child a{color:#00ADEF;}
 
@@ -491,7 +491,23 @@ blockquote {
 	width:100%;
 	border: none;
 }
-
-.active{
-	background: red;
+.info_sec{
+	display: flex;
+	float: none;
+	text-align: center;
+}
+.info_sec .info_one{
+	width: 33.3%;
+}
+.social_net{
+	float: none;
+	text-align: center;
+	padding-top: 1em;
+}
+.contact_tit{
+	margin-bottom: 1em;
+}
+#footer{
+	padding-top: 0.5em;
+	padding-bottom: 1.5em;
 }

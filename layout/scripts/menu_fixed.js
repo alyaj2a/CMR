@@ -8,10 +8,11 @@ $(document).ready(function(){
 			$('.menu_main').removeClass('menu-fixed');
 		}
 	});
+	/*
 	$(function() {
     $('li a').click(function() {
       $("li a.active").removeClass("active");
         $(this).addClass('active');
     });
-  });
+  });*/
 });
