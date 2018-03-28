@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Jeren
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
-
 @import url("font-awesome.min.css");
 @import url("custom.flexslider.css");
 @import url("framework.css");
@@ -21,36 +12,29 @@ File: Layout CSS
 .row4, .row4 a{}
 .row5{border-top:1px solid;}
 
-
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
 #topbar{padding:15px 0; font-size:.8rem; text-transform:uppercase;}
-
 #topbar *{margin:0;}
 #topbar ul li{display:inline-block; margin-right:10px; padding-right:15px; border-right:1px solid;}
 #topbar ul li:last-child{margin-right:0; padding-right:0; border-right:none;}
 #topbar i{margin:0 5px 0 0; line-height:normal;}
 
-
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
-
 #header #logo{margin:30px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
-
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:150px 0;}
-
 #pageintro li article{display:block; max-width:75%; margin:0 auto; text-align:center;}
 #pageintro li article *{margin:0;}
 #pageintro li p:first-of-type{margin-bottom:10px; font-style:italic;}
 #pageintro li .heading{margin-bottom:30px; font-size:3rem; word-wrap:break-word;}
 #pageintro li p:nth-of-type(2){line-height:1.5rem;}
 #pageintro li footer{margin-top:40px;}
-
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
@@ -103,7 +87,6 @@ File: Layout CSS
 .sidebar .sdb_holder{margin-bottom:50px;}
 .sidebar .sdb_holder:last-child{margin-bottom:0;}
 
-
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
 #footer{padding:80px 0;}
@@ -124,28 +107,15 @@ File: Layout CSS
 #footer input{display:block; width:100%; padding:8px;}
 #footer button{padding:8px 18px 10px; text-transform:uppercase; font-weight:700; cursor:pointer;}
 
-
 /* Copyright
 --------------------------------------------------------------------------------------------------------------- */
 #copyright{padding:20px 0;}
 #copyright *{margin:0; padding:0;}
 
-
 /* Transition Fade
-This gives a smooth transition to "ALL" elements used in the layout - other than the navigation form used in mobile devices
-If you don't want it to fade all elements, you have to list the ones you want to be faded individually
-Delete it completely to stop fading
 --------------------------------------------------------------------------------------------------------------- */
-*, *::before, *::after{transition:all .28s ease-in-out;}
+/**, *::before, *::after{transition:all .28s ease-in-out;}*/
 #mainav form *{transition:none !important;}
-
-
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-
 
 /* Navigation
 --------------------------------------------------------------------------------------------------------------- */
@@ -208,7 +178,6 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #backtotop.visible{visibility:visible; opacity:.5;}
 #backtotop:hover{opacity:1;}
 
-
 /* Tables
 --------------------------------------------------------------------------------------------------------------- */
 table, th, td{border:1px solid; border-collapse:collapse; vertical-align:top;}
@@ -217,13 +186,11 @@ table{width:100%; margin-bottom:15px;}
 th, td{padding:5px 8px;}
 td{border-width:0 1px;}
 
-
 /* Gallery
 --------------------------------------------------------------------------------------------------------------- */
 #gallery{display:block; width:100%; margin-bottom:50px;}
 #gallery figure figcaption{display:block; width:100%; clear:both;}
 #gallery li{margin-bottom:30px;}
-
 
 /* Font Awesome Social Icons
 --------------------------------------------------------------------------------------------------------------- */
@@ -241,14 +208,6 @@ td{border-width:0 1px;}
 .faicon-linkedin:hover{background-color:#0E76A8;}
 .faicon-twitter:hover{background-color:#00ACEE;}
 .faicon-vk:hover{background-color:#4E658E;}
-
-
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
@@ -272,7 +231,6 @@ blockquote::before{color:rgba(255,255,255,.2);}
 .icon{color:#00ADEF; border-color:#D7D7D7;}
 a > .icon:hover, .services article:hover .icon{color:#FFFFFF; background-color:#00ADEF; border-color:#00ADEF;}
 
-
 /* Rows */
 .row0, .row0 a{color:#474747; background-color:#EFEFEF;}
 .row1{color:#474747; background-color:#FFFFFF;}
@@ -282,19 +240,15 @@ a > .icon:hover, .services article:hover .icon{color:#FFFFFF; background-color:#
 .row5, .row5 a{color:#CBCBCB; background-color:#222222;}
 .row5{border-color:rgba(255,255,255,.1);}
 
-
 /* Top Bar */
 #topbar ul li{border-color:rgba(0,0,0,.1);}
 #topbar > div:last-of-type li:first-child a{color:#00ADEF;}
 
-
 /* Header */
 #header #logo a{color:inherit;}
 
-
 /* Content Area */
 .excerpt .excerpttxt{color:inherit; background-color:#FFFFFF;}
-
 
 /* Footer */
 #footer .heading{color:#FFFFFF;}
@@ -304,7 +258,6 @@ a > .icon:hover, .services article:hover .icon{color:#FFFFFF; background-color:#
 #footer input{color:#FFFFFF; background-color:#353535;}
 #footer input:focus{border-color:#00ADEF;}
 #footer button{color:#FFFFFF; background-color:#00ADEF;}
-
 
 /* Navigation */
 
@@ -325,7 +278,6 @@ a > .icon:hover, .services article:hover .icon{color:#FFFFFF; background-color:#
 
 #backtotop{color:#FFFFFF; background-color:#00ADEF;}
 
-
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
 #comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#00ADEF;}
@@ -334,25 +286,15 @@ tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
 table a, #comments a{background-color:inherit;}
 
-
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-
-
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
 @-ms-viewport{width:device-width;}
-
 
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:978px){
 	.hoc{max-width:978px;}
 }
-
 
 /* Mobile Devices
 --------------------------------------------------------------------------------------------------------------- */
@@ -380,7 +322,6 @@ table a, #comments a{background-color:inherit;}
 	#copyright p:first-of-type{margin-bottom:10px;}
 }
 
-
 @media screen and (max-width:750px){
 	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
@@ -396,11 +337,9 @@ table a, #comments a{background-color:inherit;}
 	.sectiontitle{max-width:none; text-align:left;}
 }
 
-
 @media screen and (max-width:450px){
 	#topbar ul li{margin-bottom:2px; padding-right:0; border-right:none;}
 }
-
 
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
@@ -502,12 +441,14 @@ blockquote {
 .social_net{
 	float: none;
 	text-align: center;
-	padding-top: 1em;
 }
 .contact_tit{
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
+	text-align: center;
 }
-#footer{
-	padding-top: 0.5em;
-	padding-bottom: 1.5em;
+#sec_footer{
+	padding: 3em;
+}
+#sec_footer .info_one i{
+	padding-right: 0.5em;
 }
