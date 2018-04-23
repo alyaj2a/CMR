@@ -463,9 +463,7 @@ blockquote {
 
 
 @media screen and (min-width:900px){
-	header{
-		background: red;
-	}
+
 }
 @media screen and (min-width:750px) and (max-width:900px){
 	#header{
@@ -477,9 +475,7 @@ blockquote {
 	#sec_footer{
 		padding: 3em 0;
 	}
-	header{
-		background: pink;
-	}
+
 }
 @media screen and (min-width:280px) and (max-width:750px){
 	#header{
@@ -532,9 +528,6 @@ blockquote {
 	}
 	.info_cuadro .info{
 		padding: 0.5em 0;
-	}
-	header{
-		background: yellow;
 	}
 }
 
