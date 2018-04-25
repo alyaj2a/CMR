@@ -493,6 +493,9 @@ blockquote {
 	#pageintro{
 		padding: 90px 0 130px 0;
 	}
+	#topbar{
+		display: none;
+	}
 	#topbar .fl_left ul{
 		width: 70%;
 		float: left;
@@ -565,6 +568,9 @@ blockquote {
 	}
 	.flex-control-nav{
 		bottom: -50px;
+	}
+	#topbar{
+		display: none;
 	}
 	#topbar ul{
 		margin: 4px 0 0 0;
